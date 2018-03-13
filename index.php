@@ -22,10 +22,10 @@
 
 <body>
     <div class="grid-container">
-        <div class="grid-y">
+        <div class="grid-y x" >
             <div class="cell shrink header">
-                <div class="grid-x auto">
-                    <div class="cell  title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+                <div class="grid-x auto"  >
+                    <div class="cell  title-bar" data-responsive-toggle="main-menu"  data-hide-for="medium" >
                         <div class="grid-x auto">
                             <button class="menu-icon" type="button" data-toggle="main-menu"></button>
                             <div class="cell small-3 title-bar-title ">Menu</div>
@@ -65,7 +65,7 @@
             <!-- end of header div -->
             <div class="cell shrink body ">
                 <div class="grid-x auto  ">
-                    <div class="cell  small-0 medium-3 large-2 show-for-medium navigation">
+                    <div class="cell  small-0 medium-3 large-2 xlarge-1 show-for-medium navigation" >
 
                         <ul class="vertical menu  ">
                             <li><a href="#">Home</a></li>
@@ -109,7 +109,7 @@
                         </div>
                         <div class="grid-x auto" id="contactus">
                             <form class="grid-x grid-margin-x">
-                            <h3 class="cell small-12 ">contact form</h3>
+                            <h3 class="cell small-12 ">Contact Form</h3>
                                 <div class="grid-container fluid">
                            
                                 <div class="grid-x grid-margin-x">
@@ -133,7 +133,7 @@
                                 <div class="grid-x grid-margin-x">
 
                                     <div class="small-9 cell">
-                                        <input type="email" id="website-label" placeholder="www.example.com">
+                                        <input type="url" id="website-label" placeholder="www.example.com">
                                     </div>
                                     <div class="small-3 cell">
                                         <label for="website-label" class="text-left middle">Website</label>
@@ -185,11 +185,11 @@
             </div>
             <div class="cell shrink footer">
                 <div id="about">
-                    <h2>About this Page</h2>
+                    <h3>About this Page</h3>
                     <p>This page is for a fictional site. It was created by <a href="http://www.zomigi.com">Zoe Mickley Gillenwater</a> as an exercise in the book <a href="http://www.stunningcss3.com"><i>Stunning CSS3: A Project-based Guide to the Latest in CSS</i></a>. It uses CSS3 media queries to change the design at different screen sizes; resize your browser window or load it up in a mobile device to check it out.</p>
                 </div>
                 <div id="credits">
-                    <h2>Credits</h2>
+                    <h3>Credits</h3>
                     <dl>
                         <dt>Web Fonts: </dt>
                         <dd>Nadia Serif from <a href="http://www.kernest.com">Kernest</a></dd>
