@@ -129,10 +129,10 @@
                                     </div> <!-- end row of input for contact us -->
                                     <div class="grid-x grid-margin-x"> <!-- setup row for contact us-->
                                         <div class="small-9 cell">
-                                            <input type="email" id="middle-label" placeholder="mail@example.com">
+                                            <input type="email" id="emailinput" placeholder="mail@example.com">
                                         </div>
                                         <div class="small-3 cell">
-                                            <label for="" class="text-left middle">Email</label>
+                                            <label for="emailinput" class="text-left middle">Email</label>
                                         </div>
                                     </div> <!-- end row for contact us -->
                                     <div class="grid-x grid-margin-x"><!-- setup row for contact us-->
