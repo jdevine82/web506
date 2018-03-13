@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="cell medium-2">
-                        <img src="img/logo.png" alt="Little Pea Bakery logo" width="98" height="76" id="logo">
+                        <img src="https://powerful-scrubland-15349.herokuapp.com/logo.png" alt="Little Pea Bakery logo" width="98" height="76" id="logo">
                     </div>
                     <div class="cell auto"><h1>Baker's Galore deserts lollies pastry sweet</h1></div>
                     <div class="cell medium-4">
