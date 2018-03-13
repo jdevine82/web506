@@ -52,7 +52,7 @@
 .navigation ul {
     width: inherit;
     position: fixed;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 5px;
     margin-left: 0;
 }
@@ -209,6 +209,15 @@ h2 {
 #contactus label{
     margin:10px;
     color: #999999;
+}
+
+#contactus button{
+    width: 100px;
+    height: 40px;
+    background-color:  #7F4627;
+    color: #FFF;
+    border-radius: 3px;
+    
 }
 
 #contactus input {
