@@ -107,7 +107,7 @@
 
 
 h2 + p {
-    color: #7F4627;
+    color: #474E69;
     text-shadow: -1px -1px 0 hsla(0, 0%, 100%, .6);
     font-size: 120%;
 }
@@ -206,7 +206,7 @@ h2 {
 #contactus button{
     width: 100px;
     height: 40px;
-    background-color:  #7F4627;
+    background-color:  #474E69;
     color: #FFF;
     border-radius: 3px;
     
@@ -218,7 +218,7 @@ h2 {
     border-style: solid;
     border-width: 1px;
     width: 200px;
-    color: #999999;
+  
 
 
 }
@@ -389,7 +389,7 @@ input[type=submit] {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background-color: #2485A7;
+    background-color: #474E69;
     background-image: -moz-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .3));
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, .3)));
     color: #fff;
