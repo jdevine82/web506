@@ -132,7 +132,7 @@
                                             <input type="email" id="middle-label" placeholder="mail@example.com">
                                         </div>
                                         <div class="small-3 cell">
-                                            <label for="middle-label" class="text-left middle">Email</label>
+                                            <label for="" class="text-left middle">Email</label>
                                         </div>
                                     </div> <!-- end row for contact us -->
                                     <div class="grid-x grid-margin-x"><!-- setup row for contact us-->
