@@ -9,11 +9,24 @@
      /*background-color: red;*/
 } 
 
+.header h1 {
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute!important;
+  border: 0!important;
+  padding: 0!important;
+  margin: 0!important;
+  clip: rect(1px,1px,1px,1px);
+}
+
 .body {
     /* background-color: blue;*/
-     margin: 0;
-    padding: 0;
-    background: url(images/background.jpg);
+     margin: 0px;
+    padding: 5px;
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.9) , rgba(255, 255, 255, 0.9) ), url(http://d243fxl63lktap.cloudfront.net/background.jpg);
     color: #666;
     font-family: "Segoe UI", Segoe, Calibri, Arial, sans-serif;
     font-size: 100%;
@@ -22,30 +35,32 @@
 
 .footer {
   
+         
+            padding: 10px 0;
+            border-top: 1px dashed #3C9;
+        
 }
 
  .navigation {
-
+padding: 5px;
 }
 .navigation ul{
-     list-style: none;
+   width:inherit;
+    position: fixed;
+    margin-top: 10%;
+    margin-right: 5px;
+    margin-left:0;
 }
 
 .navigation a{
     
 
-            display: block;
-            padding: .3em .5em;
-            border-bottom: 1px dashed #3C9;
-            -moz-border-radius: 3px 3px 0 0;
-            -webkit-border-radius: 3px;
-            border-radius: 3px 3px 0 0;
-            background: -moz-linear-gradient(hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, 0));
-            background: -webkit-gradient(linear, 0 0, 0 100%, from(hsla(0, 0%, 100%, .5)), to(hsla(0, 0%, 100%, 0)));
+            font-size: 100%;
             font-family: Cambria, "Palatino Linotype", "Book Antiqua", Palatino, serif;
             text-transform: uppercase;
             text-decoration: none;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
+            border-right-width: thin;
         
 }
 
@@ -55,62 +70,72 @@
             color: #F87364;
         }
 
-.newsfeed {
-  
+.newsfeed div {
+  padding: 10px;
+}
+.feature {
+     padding:5px  5px;
+}
+#feature-candy{
+     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.49) , rgba(255, 255, 255, 0.49) ),url("http://d243fxl63lktap.cloudfront.net/lollie.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#feature-pastry{
+     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.49) , rgba(255, 255, 255, 0.49) ), url("http://d243fxl63lktap.cloudfront.net/pastry.jpeg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#feature-dessert{
+     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.49) , rgba(255, 255, 255, 0.49) ), url("http://d243fxl63lktap.cloudfront.net/dessert.jpeg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .mainpage {
-   
+   margin: 5px;
 }
 
 @font-face {
-            font-family: 'Nadia Serif';
-            src: url('fonts/nadia-serif.eot');
-            src: local('☺'), url('fonts/nadia-serif.woff') format('woff'), url('fonts/nadia-serif.ttf') format('truetype'), url('fonts/nadia-serif.svg#nadisn') format('svg');
+            font-family: 'Source Serif Pro', serif;
         }
 
 
 
   
 
-       h1+p {-moz-column-count: 2;
+    h2+p {           color: #7F4627;
+            text-shadow: -1px -1px 0 hsla(0, 0%, 100%, .6);
+            font-size: 120%;
+        }
+h2 {
+      font-size: 6vw; 
+    }
+
+.footer  {
+    font-size:60%;
+}
+@media screen and (min-width: 900px){
+h2+p {-moz-column-count: 2;
             -moz-column-gap: 1.5em;
             -o-column-count: 2;
             -o-column-gap: 1.5em;
             -webkit-column-count: 2;
             -webkit-column-gap: 1.5em;
             column-count: 2;
-            column-gap: 1.5em;
-            
-            color: #7F4627;
-            text-shadow: -1px -1px 0 hsla(0, 0%, 100%, .6);
-            font-size: 120%;
-        }
-#feature-candy {
-            background-image: url(images/icon_candy_128-trans.png);
-        }
+    column-gap: 1.5em;}
+    
+    h2 {
+      font-size: 4vw; 
+    }
+    
+    p {
+        font-size: 10px;
+    }
+}
 
-        #feature-pastry {
-            background-image: url(images/icon_pastry_128-trans.png);
-        }
 
-        #feature-dessert {
-            background-image: url(images/icon_dessert_128-trans.png);
-        }
-
-        .ie6 #feature-candy {
-            background: url(images/icon_candy_128-trans.png) no-repeat;
-        }
-
-        .ie6 #feature-pastry {
-            background: url(images/icon_pastry_128-trans.png) no-repeat;
-        }
-
-        .ie6 #feature-dessert {
-            background: url(images/icon_dessert_128-trans.png) no-repeat;
-        }
-
-        .feature h3 {
+        .feature h4 {
             margin-bottom: 0;
             padding-bottom: .2em;
             border-bottom: 1px dashed #3C9;
@@ -122,6 +147,8 @@
             letter-spacing: 1px;
             line-height: 1.2;
         }
+
+ 
 
         /* SIDEBAR COMPONENTS ---- */
 
@@ -241,20 +268,20 @@
             line-height: 1.2;
         }
 
-        h2,
-        h3 {
+        h3,
+        h4 {
             margin-bottom: 0;
             color: #555;
         }
 
-        h2 {
+        h3 {
             font-family: 'Nadia Serif', Helvetica, "Helvetica Neue", Arial, sans-serif;
             font-size: 150%;
             text-shadow: -1px -1px 0 hsla(0, 0%, 100%, .6);
             letter-spacing: -1px;
         }
 
-        h3 {
+        h4 {
             font-family: Cambria, "Palatino Linotype", "Book Antiqua", Palatino, serif;
             font-size: 112.5%;
             text-transform: uppercase;

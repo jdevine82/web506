@@ -133,7 +133,7 @@
                                 <div class="grid-x grid-margin-x">
 
                                     <div class="small-9 cell">
-                                        <input type="website" id="website-label" placeholder="www.example.com">
+                                        <input type="email" id="website-label" placeholder="www.example.com">
                                     </div>
                                     <div class="small-3 cell">
                                         <label for="website-label" class="text-left middle">Website</label>
