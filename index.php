@@ -41,7 +41,7 @@
                                         <li><a href="#">Menu</a></li>
                                         <li><a href="#">Location</a></li>
                                         <li><a href="#">Catering</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#contactus">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                             <li><a href="#">Menu</a></li>
                             <li><a href="#">Location</a></li>
                             <li><a href="#">Catering</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
                         </ul>
 
                     </div> <!-- end navigation column-->
@@ -117,7 +117,7 @@
                         </div> <!-- end row of feature columns -->
                         <div class="grid-x auto" id="contactus"> <!-- setup container for contact form -->
                             <form class="grid-x grid-margin-x"> <!-- setup row for contact form -->
-                                <h3 class="cell small-12 ">Contact Form</h3><!-- use full width cell-->
+                                <h3 class="cell small-12 " id="contact">Contact Form</h3><!-- use full width cell-->
                                 <div class="grid-container fluid"> <!-- setup full width container-->
                                     <div class="grid-x grid-margin-x"> <!-- setup row -->
                                         <div class="small-9 cell">
